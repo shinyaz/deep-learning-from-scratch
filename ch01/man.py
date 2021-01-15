@@ -2,14 +2,14 @@
 class Man:
     """サンプルクラス"""
 
-    def __init__(self, name):
+    def __init__(self, name) -> None:
         self.name = name
-        print("Initilized!")
-
-    def hello(self):
+        print("Initialized!")
+    
+    def hello(self) -> None:
         print("Hello " + self.name + "!")
-
-    def goodbye(self):
+    
+    def goodbye(self) -> None:
         print("Good-bye " + self.name + "!")
 
 m = Man("David")
